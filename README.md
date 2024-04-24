@@ -1,5 +1,7 @@
 # 🌀 Reverser Smart Contract
 
+![Reversing Code GIF](insert_url_here)
+
 Welcome to the **Reverser Smart Contract** project, where we play with time and space (or at least with strings and numbers). This Solidity-based contract lets you reverse anything from a simple number to a whole string. It's designed for Remix IDE and Ganache, allowing you to experiment and have fun while learning about Ethereum smart contracts.
 
 ## 🚀 Project Structure
@@ -11,6 +13,8 @@ To get started, you'll need:
 - **Remix IDE**: The code playground. You can use it to write, compile, and test your contracts.
 - **Ganache**: Your personal Ethereum blockchain for local development.
 - **MetaMask**: The bridge between your browser and the Ethereum network.
+
+![Installation Steps GIF](insert_url_here)
 
 First, make sure Ganache is running on your local machine (usually at `http://127.0.0.1:7545`). Set up MetaMask to connect to Ganache. This is your setup for deploying and interacting with smart contracts.
 
@@ -32,6 +36,8 @@ Now, let's bring the contract to life!
    - Input initial values for the constructor (e.g., "hello" for a string and `12345` for a number).
    - Click "Deploy" and watch your smart contract come to life!
 
+![Smart Contract Deployment GIF](insert_url_here)
+
 ## 🎮 How to Use the Reverser Contract
 Here are a few things you can do with the contract:
 
@@ -40,6 +46,8 @@ Here are a few things you can do with the contract:
 
 - **Reverse a Stored Number**:
   - Call `reverseStoredNumber()` to flip those digits. The result? Something entirely new.
+
+![Example Reversal GIF](insert_url_here)
 
 - **Reverse a Custom String**:
   - Pass any string to `reverseString("your_string_here")` and get it reversed. Perfect for hidden messages or secret codes!
